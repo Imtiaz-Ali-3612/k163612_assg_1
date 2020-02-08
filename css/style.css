@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 40 px;
+    box-sizing: border-box;
+}
+h1{
+    padding: 50;
+    text-align: center;
+}
+.article-text{
+    clear:both;
+    padding: 5px;
+}
+.article1-heading{
+    background-color: darksalmon;
+    border: 1px solid;
+    float: right;
+    padding:5px;
+
+}
+.article2-heading{
+    background-color: brown;
+    border: 1px solid;
+    float: right;
+    padding:5px;
+}
+.article3-heading{
+    background-color: burlywood;
+    border: 1px solid;
+    float: right;
+    padding:5px;
+}
+
+.article-heading1 h4{
+    margin-top: 0;
+}
+@media screen and (min-width: 992px) {
+
+    .article1{
+        align-content: right;
+        float: left;
+        border: 1px solid;
+        width: 30%;
+        margin: 5px;
+        background-color: darkgray;
+    }
+    .article2{
+        align-content: right;
+        float: left;
+        border: 1px solid;
+        width: 30%;
+        margin: 5px;
+        background-color: darkgray;
+    }
+    .article3{
+        align-content: right;
+        float: left;
+        border: 1px solid;
+        width: 30%;
+        margin: 5px;
+        background-color: darkgray;
+    }
+}
+
+
+@media screen and  (max-width: 991px) {
+    .article1{
+        align-content: right;
+        float: left;
+        border: 1px solid;
+        width: 45%;
+        margin: 5px;
+        background-color: darkgray;
+    }
+    .article2{
+        align-content: right;
+        float: left;
+        border: 1px solid;
+        width: 45%;
+        margin: 5px;
+        background-color: darkgray;
+    }
+    .article3{
+        align-content: right;
+        float: left;
+        border: 1px solid;
+        width: 90%;
+        margin: 5px;
+        background-color: darkgray;
+    }
+  
+  }
+  
+@media screen and (max-width: 767px) {
+    .article1{
+        align-content: right;
+        float: left;
+        border: 1px solid;
+        width: 90%;
+        margin: 5px;
+        background-color: darkgray;
+    }
+    .article2{
+        align-content: right;
+        float: left;
+        border: 1px solid;
+        width: 90%;
+        margin: 5px;
+        background-color: darkgray;
+    }
+    .article3{
+        align-content: right;
+        float: left;
+        border: 1px solid;
+        width: 90%;
+        margin: 5px;
+        background-color: darkgray;
+    }
+    
+}
